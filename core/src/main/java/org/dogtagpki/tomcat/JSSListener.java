@@ -57,6 +57,7 @@ public class JSSListener implements LifecycleListener {
         try {
             TomcatJSS tomcatjss = TomcatJSS.getInstance();
             tomcatjss.loadConfig();
+            
             tomcatjss.init();
 
         } catch (Exception e) {
